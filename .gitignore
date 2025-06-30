@@ -1,6 +1,6 @@
 # Build files
 /node_modules
-/build
+
 
 # Environment files
 .env

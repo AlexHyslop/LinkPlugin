@@ -3,7 +3,7 @@
  * Plugin Name: Stylized Anchor Link
  * Description: A Gutenberg block that allows editors to search for and choose a published post to insert as a stylized anchor link.
  * Version: 1.0.0
- * Author: Your Name
+ * Author: Alex Hyslop
  * Text Domain: stylized-anchor-link
  * Domain Path: /languages
  */
