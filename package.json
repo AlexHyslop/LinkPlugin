@@ -1,0 +1,18 @@
+{
+  "name": "stylized-anchor-link",
+  "version": "1.0.0",
+  "description": "A Gutenberg block for inserting stylized links to other posts",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:js": "wp-scripts lint-js",
+    "lint:style": "wp-scripts lint-style"
+  },
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  }
+}

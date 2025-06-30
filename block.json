@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "stylized-anchor-link/post-link",
+  "title": "Stylized Anchor Link",
+  "category": "widgets",
+  "icon": "admin-links",
+  "description": "Insert a stylized link to another post.",
+  "keywords": ["link", "post", "anchor"],
+  "textdomain": "stylized-anchor-link",
+  "attributes": {
+    "postId": {
+      "type": "number",
+      "default": 0
+    },
+    "postTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "postUrl": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/editor.css",
+  "style": "file:./build/style.css"
+}

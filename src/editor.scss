@@ -1,0 +1,134 @@
+.wp-block-stylized-anchor-link-post-link {
+    border: 1px dashed #ccc;
+    padding: 1em;
+    
+    .dmg-read-more {
+        margin: 0;
+    }
+}
+
+.stylized-anchor-link-search-container {
+    margin-bottom: 15px;
+    
+    .components-button {
+        margin-top: 8px;
+    }
+}
+
+.stylized-anchor-link-search-input-wrapper {
+    position: relative;
+    
+    .stylized-anchor-link-clear-search {
+        position: absolute;
+        right: 0;
+        top: 16px;
+        padding: 0;
+        min-width: 30px;
+        height: 30px;
+        
+        &:hover {
+            box-shadow: none;
+        }
+    }
+}
+
+.stylized-anchor-link-results {
+    margin-top: 15px;
+    
+    .stylized-anchor-link-results-title {
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: capitalize;
+        display: inline-block;
+    }
+    
+    .stylized-anchor-link-result-item {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 8px;
+        white-space: normal;
+        height: auto;
+        padding: 10px;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        
+        &:hover {
+            background-color: #f0f0f0;
+        }
+        
+        .post-id {
+            color: #777;
+            font-size: 0.9em;
+            margin-left: 5px;
+        }
+    }
+}
+
+.stylized-anchor-link-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #e0e0e0;
+    
+    .stylized-anchor-link-pagination-info {
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+.stylized-anchor-link-direct-id {
+    margin-top: 10px;
+}
+
+.stylized-anchor-link-tabs .components-tab-panel__tabs {
+    margin-bottom: 15px;
+}
+
+.stylized-anchor-link-selected-post {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+    
+    .stylized-anchor-link-selected-title {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    .stylized-anchor-link-selected-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border-radius: 4px;
+        
+        .stylized-anchor-link-selected-text {
+            font-weight: 500;
+            
+            .post-id {
+                color: #777;
+                font-size: 0.9em;
+                margin-left: 5px;
+                font-weight: normal;
+            }
+        }
+        
+        .stylized-anchor-link-remove-selection {
+            padding: 0;
+            min-width: 30px;
+            height: 30px;
+            
+            &:hover {
+                color: #cc0000;
+            }
+        }
+    }
+}
