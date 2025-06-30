@@ -1,9 +1,4 @@
-# StylizedAnchorLink
-
-Contributors: Alex Hyslop
-Stable tag: 1.0.0
-License: GPL-2.0-or-later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# Stylized Anchor Link
 
 This plugin provides a Gutenberg block allowing users to search for published posts and insert them as styled anchor links in the editor.
 
