@@ -46,7 +46,7 @@ function stylized_anchor_link_register_block() {
         } );
     }
 
-    register_block_type( 'stylized-anchor-link/block', array(
+    register_block_type( 'stylized-anchor-link/post-link', array(
         'editor_script' => 'stylized-anchor-link-editor',
         'editor_style'  => 'stylized-anchor-link-editor',
         'style'         => 'stylized-anchor-link',

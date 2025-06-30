@@ -10,7 +10,7 @@
     "lint:js": "wp-scripts lint-js",
     "lint:style": "wp-scripts lint-style"
   },
-  "author": "Your Name",
+  "author": "Alex Hyslop",
   "license": "GPL-2.0-or-later",
   "devDependencies": {
     "@wordpress/scripts": "^26.0.0"
